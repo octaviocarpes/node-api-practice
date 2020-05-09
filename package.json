@@ -1,0 +1,22 @@
+{
+  "name": "node-api-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:octaviocarpes/node-api-practice.git",
+  "author": "Octavio Carpes <octavio.carpes10@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.13",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "",
+    "start:dev": "nodemon src/index.ts"
+  }
+}
